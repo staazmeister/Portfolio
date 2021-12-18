@@ -50,16 +50,16 @@ html{
     color: white;
 }
 #home::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 5%;
-    background: url("/Users/johill/Portfolio/assets/images/me_bw.jpg") no-repeat center center/cover;
-    height: 900px;
-    width: 100%;
-    z-index: -1;
-    opacity: .2;
-} 
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 5%;
+  background: url('../images/me.jpg') no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: .2;
+}
 .main{
     display: flex;
     flex-direction: column;
