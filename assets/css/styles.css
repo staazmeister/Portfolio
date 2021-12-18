@@ -54,7 +54,7 @@ html{
     position: absolute;
     top: 0;
     right: 5%;
-    background: url('me.jpg') no-repeat center center/cover;
+    background: url("/Users/johill/Portfolio/assets/images/me_bw.jpg") no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
