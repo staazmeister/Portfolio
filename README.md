@@ -3,7 +3,7 @@ Week 2 Homework
 This week's project was to create a web application from scratch that will serve as a porfolio page that can be updated as we progress through the program.
 
 
-***Since I currently do not have any projects to showcase at this time, please be advised that I have insert placeholders that will take you to my GitHub page. This is only temporary and will be updated accodingly once I have new projects to showcase.***
+*Since I currently do not have any projects to showcase at this time, please be advised that I have insert placeholders that will take you to my GitHub page. This is only temporary and will be updated accodingly once I have new projects to showcase.*
 
 
 
@@ -43,9 +43,11 @@ flexbox, media queries,and css variables.
 
 ## View of how deployed application looks
 
-![image](https://user-images.githubusercontent.com/94095220/145525765-cf6019a5-361d-4792-b1c5-8288b31d1c6b.png)
+<img width="818" alt="Screen Shot  of Porfolio" src="https://user-images.githubusercontent.com/94095220/146658794-6045660c-e5cc-4d57-a1a0-026141a44c9e.png">
+
+
 
 ## Links to Deployed Application
-Live URL: https://staazmeister.github.io/Code_Refactor/
+Live URL: https://staazmeister.github.io/Portfolio/
 
-URL for GitHub repository:https://github.com/staazmeister/Code_Refactor.git
+URL for GitHub repository:https://github.com/staazmeister/Portfolio
