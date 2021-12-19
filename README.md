@@ -48,6 +48,6 @@ flexbox, media queries,and css variables.
 
 
 ## Links to Deployed Application
-Live URL: https://staazmeister.github.io/Code_Refactor/
+Live URL: https://staazmeister.github.io/Portfolio/
 
-URL for GitHub repository:https://github.com/staazmeister/Code_Refactor.git
+URL for GitHub repository:https://github.com/staazmeister/Portfolio
