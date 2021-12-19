@@ -186,7 +186,7 @@ html{
     border-radius: 15px;
 }
 
-/*responsive layout - makes a two column-layout instead of four columns*/
+/*responsive layout creates a two column-layout vs four columns*/
 @media screen and (max-width: 900px) {
     .column {
           width: 50%;
@@ -194,7 +194,7 @@ html{
         }
       }
       
-/*responsive layout - makes the two columns stack on top of each other instead of next to each other*/
+/*responsive layout makes columns stack on top of one other vs side-by-side*/
 @media screen and (max-width: 600px) {
     .column, .nav ul  {
           width: 100%;
