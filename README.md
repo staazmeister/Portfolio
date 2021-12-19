@@ -43,7 +43,9 @@ flexbox, media queries,and css variables.
 
 ## View of how deployed application looks
 
-![image](https://user-images.githubusercontent.com/94095220/145525765-cf6019a5-361d-4792-b1c5-8288b31d1c6b.png)
+![image]<img width="818" alt="Screen Shot  of Porfolio" src="https://user-images.githubusercontent.com/94095220/146658794-6045660c-e5cc-4d57-a1a0-026141a44c9e.png">
+
+
 
 ## Links to Deployed Application
 Live URL: https://staazmeister.github.io/Code_Refactor/
