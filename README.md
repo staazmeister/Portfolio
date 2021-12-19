@@ -43,7 +43,7 @@ flexbox, media queries,and css variables.
 
 ## View of how deployed application looks
 
-![image]<img width="818" alt="Screen Shot  of Porfolio" src="https://user-images.githubusercontent.com/94095220/146658794-6045660c-e5cc-4d57-a1a0-026141a44c9e.png">
+<img width="818" alt="Screen Shot  of Porfolio" src="https://user-images.githubusercontent.com/94095220/146658794-6045660c-e5cc-4d57-a1a0-026141a44c9e.png">
 
 
 
