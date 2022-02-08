@@ -7,32 +7,32 @@ html{
     scroll-behavior: smooth;
 }
 /* nav*/
-.nav{
+.navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .8);
     position: sticky;
     top: 0;
 }
-.nav ul{
+.navbar ul{
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
-.nav ul li{
+.navbar ul li{
     font-family: Arial, Helvetica, sans-serif;    
     font-size: 1.1rem;
     font-weight: bold;
 }
-.nav ul li a{
+.navbar ul li a{
     text-decoration: none;
     color: white;
     padding: 8px 25px;
     transition: all .5s ease;
 
 }
-.nav ul li a:hover{
+.navbar ul li a:hover{
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
@@ -103,6 +103,7 @@ html{
     color: white;
     align-items: center;
     padding: 20px;
+    
 
 }
 .row {
@@ -127,13 +128,13 @@ html{
   }
   
 /* content */
-.content {
+.content, .card {
     background-color: black;
     padding: 10px;
     text-align: center;
     position: relative;
   }
-.image {
+.image{
     opacity: 1;
     display: block;
     width: 100%;
@@ -142,18 +143,20 @@ html{
     backface-visibility: hidden;
   }
 .middle {
-    transition: .5s ease;
+      transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    
   }
 .content:hover .image{
     opacity: 0.3;
   }
+  
 .content:hover .middle {
     opacity: 1;
   }
@@ -161,33 +164,46 @@ html{
     background-color: none;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     padding: 16px 32px;
+  }
+
+
+  .card-img-top:hover{
+    opacity: 0.3;
   }
 
 /*contact section*/
 #contact{
-    display: flex;
+   background-color: none ;
     flex-direction: column;
-    padding: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+text-align: center;
+
     align-items: center;
 }
-.box{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 75px;
-    border: 1px solid black;
-    margin: 10px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 15px;
+#contact .card-group .card {
+  background-color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
 }
 
 /*responsive layout creates a two column-layout vs four columns*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .column {
           width: 50%;
           flex-direction: center;
@@ -196,7 +212,7 @@ html{
       
 /*responsive layout makes columns stack on top of one other vs side-by-side*/
 @media screen and (max-width: 600px) {
-    .column, .nav ul  {
+    .column, .navbar ul  {
           width: 100%;
           flex-wrap: wrap;
         justify-content: center;
