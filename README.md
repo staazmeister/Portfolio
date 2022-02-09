@@ -3,14 +3,14 @@ Week 8 Homework
 This week's project was to update my portfolio to showcase my first project and featured homework's for future employers to review.
 
 
-## User Story (provided in the homework instructions)
+## User Story (provided in the homework instructions from week 2)
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
-## Acceptance Criteria (provided in the homework instructions)
+## Acceptance Criteria (provided in the homework instructions from week 2)
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -39,7 +39,7 @@ flexbox, media queries,and css variables.
 
 ## View of how deployed application looks
 
-<img width="818" alt="Screen Shot  of Porfolio" src="https://user-images.githubusercontent.com/94095220/146658794-6045660c-e5cc-4d57-a1a0-026141a44c9e.png">
+![Screen Shot 2022-02-08 at 5 10 54 PM](https://user-images.githubusercontent.com/94095220/153102822-8ce9d6a0-eeef-4473-871e-33f65dba4716.png)
 
 
 
