@@ -1,10 +1,6 @@
 # Portfolio
-Week 2 Homework
-This week's project was to create a web application from scratch that will serve as a porfolio page that can be updated as we progress through the program.
-
-
-*Since I currently do not have any projects to showcase at this time, please be advised that I have insert placeholders that will take you to my GitHub page. This is only temporary and will be updated accodingly once I have new projects to showcase.*
-
+Week 8 Homework
+This week's project was to update my portfolio to showcase my first project and featured homework's for future employers to review.
 
 
 ## User Story (provided in the homework instructions)
@@ -38,7 +34,7 @@ Skill to be implemented on this project are:
 flexbox, media queries,and css variables.
 
 ## Actions taken for this project
-- Created portfolio web application using HTML, CSS, Media Queries, Flexbox
+- Created portfolio web application using HTML, CSS, Media Queries, Flexbox, bootstrap
 - Used git commands to add, commit, and push all changes on to GitHub repository
 
 ## View of how deployed application looks
