@@ -2,126 +2,183 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <title>Jo Hill-Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Jo Hill - Portfolio</title>
 </head>
 
 <body>
 
-  <nav class="navbar sticky-top navbar-expand-lg">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="assets/images/Joseph Hill Resume.pdf" download>Download My Resume</a></li>
-    </ul>
-  </nav>
-
-  <section id="home">
-    <div class="main">
-      <h1 class="headings">I am Jo Hill <br> "Coder In Training"</h1>
-    </div>
-  </section>
-
-  <section id="about">
-    <h1 class="headings">ABOUT ME</h1>
-    <div id="intro">
-      <h2>JO HILL</h2>
-      <p>
-        Hello! My name is Joseph Hill, but you can call me Jo! I was recently inspired to join UCSD Coding Bootcamp for
-        a chance to learn as much as possible about coding in order to make the next move in my career. I don’t have any
-        background in coding; however, I believe this program will provide me the set of tools needed to put my best
-        foot forward in joining the modern-day tech world. Combining my vast experience in project management, customer
-        service, and finance with my passion for coding, I am sure I will soon serve as a valued team member in my next
-        career role!
-      </p>
-    </div>
-    </div>
-  </section>
-
-  <section id="portfolio">
-    <h1 class="headings">PORTFOLIO</h1>
-    <div class="content">
-      <a href="https://learn-about-covid-19.github.io/know-about-covid-19/"> <img
-          src="assets/images/project1_welcome_page.png" alt="screenshot of my first project" class="image"
-          style="width:100%" text-align=center></a>
-      <div class="middle">
-        <a href="https://learn-about-covid-19.github.io/know-about-covid-19/"> <div class="text">PROJECT #1: <br> COVID-19 TRACKER</div></a>
-      </div>
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">JO HILL</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About Me</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="assets/images/Full-Stack-Resume-Jo Hill.pdf" download class="nav-item nav-link">Download My Resume</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 
-    <div class="card-deck">
-      <div class="card">
-        <a href="https://staazmeister.github.io/work-day-scheduler/"> <img
-            src="assets/images/work-day-scheduler-image.png" class="card-img-top"
-            alt="screenshot of work day scheduler app"></a>
-        <div class="card-body">
-          <h5 class="card-title">Work Day Scheduler</h5>
-          <p class="card-text"><a href="https://staazmeister.github.io/work-day-scheduler/">Deployed Application</a></p>
-          <p class="card-text"><a href="https://github.com/staazmeister/coding_quiz_challenge.git">GitHub Repository</a>
-          </p>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I am Jo Hill <br> "Full-Stack Developer In Training"</h1>
         </div>
-      </div>
-      <div class="card">
-        <a href="https://staazmeister.github.io/coding_quiz_challenge/"><img src="assets/images/coding_quiz_hw.png"
-            class="card-img-top" alt="screenshot of coding quiz challenge app"></a>
-        <div class="card-body">
-          <h5 class="card-title">Coding Quiz Challenge</h5>
-          <p class="card-text"><a href="https://staazmeister.github.io/coding_quiz_challenge/">Deployed Application</a>
-          </p>
-          <p class="card-text"><a href="https://github.com/staazmeister/work-day-scheduler.git">GitHub Repository</a>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <a href="https://staazmeister.github.io/weather-dashboard/"><img src="assets/images/weather_hw.png"
-            class="card-img-top" alt="screenshot of weather dashboard app"></a>
-        <div class="card-body">
-          <h5 class="card-title">Weather Dashboard</h5>
-          <p class="card-text"><a href="https://staazmeister.github.io/weather-dashboard/">Deployed Application</a></p>
-          <p class="card-text"><a href="https://github.com/staazmeister/weather-dashboard.git">GitHub Repository</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <h1 class="headings">CONTACT</h1>
-    <div class="card-group">
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Phone</h3>
-          <p class="card-text">858.859.3130</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Email </h3>
-          <p class="card-text">jos.a.hill@gmail.com</p>
-        </div>
-      </div>
-      <div class="card">
+    <section class="page-section bg-light" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="headings">ABOUT ME</h1>
+            </div>
 
-        <div class="card-body">
-          <h4 class="card-title">Social Media</h4>
-
-          <a href="https://linkedin.com/in/joseph-hill-2271a2b0" class="fa fa-linkedin"></a>
-          <a href="https://github.com/staazmeister" class="fa fa-github"></a>
-
+            <div id="intro">
+                <h2>JO HILL</h2>
+                <p>
+                    Hello! My name is Joseph Hill, but you can call me Jo! I was recently inspired to join UCSD Coding Bootcamp for a chance to learn as much as possible about coding in order to make the next move in my career. I don’t have any background in coding; however,
+                    I believe this program will provide me the set of tools needed to put my best foot forward in joining the modern-day tech world. Combining my vast experience in project management, customer service, and finance with my passion for
+                    coding, I am sure I will soon serve as a valued team member in my next career role!
+                </p>
+            </div>
         </div>
-      </div>
-    </div>
-    </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="page-section bg-dark" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="headings">PORTFOLIO</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#project2">
+
+                            <a href="http://selectnutrition.herokuapp.com/"> <img class="img-fluid" src="assets/images/select_nutrition.png" alt="project 2-select nutrition" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Select Nutrition</div>
+                                <div class="portfolio-caption-subheading text-muted">Project 2 - Real-Life Client.<br> Webpage designed for small business owner.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/Project2CMJ/project2CMJ">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#project1">
+
+                            <a href="https://learn-about-covid-19.github.io/know-about-covid-19/"> <img class="img-fluid" src="assets/images/covid_tracker.png" alt="project 1-covid tracker" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">COVID-19 Tracker</div>
+                                <div class="portfolio-caption-subheading text-muted">Project 1 - API based project. <br>Webpage designed to retrieve latest COVID cases when you select a specific country for travel.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/Learn-About-Covid-19/know-about-covid-19">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#coding quiz">
+
+                            <a href="https://staazmeister.github.io/coding_quiz_challenge/"> <img class="img-fluid" src="assets/images/coding_quiz.png" alt="coding quiz homework" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Coding Quiz Challenge</div>
+                                <div class="portfolio-caption-subheading text-muted">App that tests your coding knowdledge.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/staazmeister/coding_quiz_challenge">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#weather_dashboard">
+
+                            <a href="https://staazmeister.github.io/weather-dashboard/"> <img class="img-fluid" src="assets/images/weather_dashboard.png" alt="weather dashboard homework" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Weather Dashboard</div>
+                                <div class="portfolio-caption-subheading text-muted">App that displays the weather forcast for the city that you select.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/staazmeister/weather-dashboard">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#workday_scheduler">
+
+                            <a href="https://staazmeister.github.io/work-day-scheduler/"> <img class="img-fluid" src="assets/images/workday_scheduler.png" alt="workday scheduler homework" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Work Day Scheduler</div>
+                                <div class="portfolio-caption-subheading text-muted">App that allows you to plan out your daily work schedule.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/staazmeister/work-day-scheduler">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#password_generator">
+                            <a href="https://staazmeister.github.io/password_generator/"> <img class="img-fluid" src="assets/images/password_generator.png" alt="password generator homework" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Password Generator</div>
+                                <div class="portfolio-caption-subheading text-muted">App that generates a random password for you based on the criteria you select.</div>
+                                <div class="portfolio-caption-subheading text-muted"><a href="https://github.com/staazmeister/password_generator">Click here to check out the GitHub Repo</a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">PHONE</h3>
+                    <p class="card-text">858.859.3130</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">EMAIL </h3>
+                    <p class="card-text">jos.a.hill@gmail.com</p>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <h4 class="card-title">SOCIAL MEDIA</h4>
+
+                    <a href="https://linkedin.com/in/joseph-hill-2271a2b0" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/staazmeister" class="fa fa-github"></a>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
 
 </body>
 
