@@ -1,5 +1,5 @@
 # Portfolio
-Week 16 Homework
+Week 16 Homework: 
 This week's project was to update my portfolio to showcase my second project and featured homework's for future employers to review.
 
 
