@@ -1,6 +1,6 @@
 # Portfolio
-Week 8 Homework
-This week's project was to update my portfolio to showcase my first project and featured homework's for future employers to review.
+Week 16 Homework
+This week's project was to update my portfolio to showcase my second project and featured homework's for future employers to review.
 
 
 ## User Story (provided in the homework instructions from week 2)
@@ -39,7 +39,8 @@ flexbox, media queries,and css variables.
 
 ## View of how deployed application looks
 
-![Screen Shot 2022-02-08 at 5 10 54 PM](https://user-images.githubusercontent.com/94095220/153102822-8ce9d6a0-eeef-4473-871e-33f65dba4716.png)
+![Screen Shot 2022-04-06 at 12 27 44 AM](https://user-images.githubusercontent.com/94095220/161919429-67a8319d-c265-4257-8f01-316e774f1739.png)
+
 
 
 
